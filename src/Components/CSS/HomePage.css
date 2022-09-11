@@ -1,9 +1,6 @@
 .homePage {
-  position: fixed;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
   background: url("../../Media/Images/pexels-juan-salamanca-61143.jpg");
   background-size: 100%;
 }

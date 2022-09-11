@@ -1,32 +1,42 @@
 .bannerDiv {
-  position: fixed;
-  top: 50px;
-  bottom: 50px;
   width: 100%;
-  display: flex;
+  min-height: 100vh;
 }
 .spanDiv {
   width: 100%;
-  text-align: center;
-  margin: 0px;
-}
-.TitleTextSpan {
-  width: 100%;
   height: 50%;
+  text-align: center;
+}
+.TitleText {
+  width: 100%;
+  height: 70%;
+  margin-top: auto;
+
   font-size: 60px;
   font-weight: 500;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(35, 35, 35);
 }
-.Title {
-  margin-top: 10%;
-  margin-bottom: 0;
-}
-.SubTitleTextSpan {
+.SubTitleText {
   width: 100%;
-  height: 50%;
-  margin-top: 0px;
-  font-size: 25px;
+  height: 20%;
+  margin: 0px;
+
+  font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(35, 35, 35);
+}
+.moreInformationButtonDiv {
+  text-align: center;
+}
+.moreInformationButton {
+  margin: auto;
+  padding: 0;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  background-color: transparent;
+  text-decoration: underline;
 }

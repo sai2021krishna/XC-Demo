@@ -16,12 +16,22 @@ function Nav() {
   }, []);
   return (
     <div className={`nav ${show && "nav__black"}`}>
-      <img
-        className="nav__logo"
-        src={require("../../Media/Images/xc.png")}
-        alt="XC Logo"
-      ></img>
-      <button className="button">Login</button>
+      <div className="rightSide">
+        <img
+          className="nav__logo"
+          src={require("../../Media/Images/xc.png")}
+          alt="XC Logo"
+        ></img>
+        {/*  <div className="navOptions">
+          <button>hello</button>
+          <button>hello2</button>
+          <button>hello3</button>
+        </div> */}
+      </div>
+
+      <div className="loginButtonDiv">
+        <button className="loginButton">Login</button>
+      </div>
     </div>
   );
 }
