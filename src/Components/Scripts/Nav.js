@@ -19,6 +19,7 @@ function Nav() {
       <img
         className="nav__logo"
         src={require("../../Media/Images/xc.png")}
+        alt="XC Logo"
       ></img>
       <button className="button">Login</button>
     </div>
