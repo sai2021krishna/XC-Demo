@@ -9,7 +9,7 @@ function Banner() {
         </span>
 
         <span className="SubTitleTextSpan">
-          <p>STAY TUNED!</p>
+          <p> Hey There STAY TUNED!</p>
         </span>
       </div>
     </div>
