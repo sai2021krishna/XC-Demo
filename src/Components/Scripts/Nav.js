@@ -17,11 +17,19 @@ function Nav() {
   return (
     <div className={`nav ${show && "nav__black"}`}>
       <div className="rightSide">
-        <img
-          className="nav__logo"
-          src={require("../../Media/Images/xc.png")}
-          alt="XC Logo"
-        ></img>
+        {show == false ? (
+          <img
+            className="nav__logo"
+            src={require("../../Media/Images/xc.png")}
+            alt="XC Logo"
+          ></img>
+        ) : (
+          <img
+            className="nav__logo__green"
+            src={require("../../Media/Images/XC-Green.png")}
+            alt="XC Logo"
+          ></img>
+        )}
         {/*  <div className="navOptions">
           <button>hello</button>
           <button>hello2</button>
@@ -30,7 +38,9 @@ function Nav() {
       </div>
 
       <div className="loginButtonDiv">
-        <button className="loginButton">Login</button>
+        <button className={`loginButton ${show && "loginButton__green"}`}>
+          Login
+        </button>
       </div>
     </div>
   );
